@@ -7,7 +7,7 @@
 	<test thread-count="1" name="Test">
 	<classes>
 			<class name="testcases.TC001Login"/>
-		 	
+		 	<class name="testcases.TC002Logout"/>
 	</classes>
 	</test> <!-- Test -->
 	
