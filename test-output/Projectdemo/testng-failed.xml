@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="3" guice-stage="DEVELOPMENT" name="Failed suite [Projectdemo]" parallel="tests">
+  <listeners>
+    <listener class-name="base.CustomListeners"/>
+  </listeners>
+  <test name="Regression(failed)" parallel="tests">
+    <classes>
+      <class name="testcases.TC002Logout">
+        <methods>
+          <include name="tearDown"/>
+          <include name="verifyLogout"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- testcases.TC002Logout -->
+    </classes>
+  </test> <!-- Regression(failed) -->
+</suite> <!-- Failed suite [Projectdemo] -->

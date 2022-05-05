@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<listeners>
+		<listener class-name="base.CustomListeners" />
+	</listeners>
+	<test thread-count="8" name="Test">
+	<classes>
+			<class name="testcases.TC001Login"/>
+		 	 <class name="testcases.TC003ApplyLeave"/>
+			 <class name="testcases.TC005AddEntitlements"/>
+			<class name="testcases.TC007EmployeeEntitlements"/>
+			<class name="testcases.TC006Window"/>
+			<class name="testcases.TC008WelcomeAbout"/>
+			<class name="testcases.TC009WelcomeSupport"/>
+			<class name="testcases.TC002Logout"/>
+	</classes>
+	</test> <!-- Test -->
+	
+</suite> <!-- Suite -->
+
