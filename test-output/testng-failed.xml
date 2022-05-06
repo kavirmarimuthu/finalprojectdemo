@@ -1,15 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
-  <test name="Default test(failed)">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="base.CustomListeners"/>
+  </listeners>
+  <test name="Test(failed)">
     <classes>
-      <class name="testcases.TC008WelcomeAbout">
+      <class name="testcases.TC009WelcomeSupport">
         <methods>
           <include name="tearDown"/>
+          <include name="verifysupport"/>
           <include name="init"/>
-          <include name="verifyabout"/>
         </methods>
-      </class> <!-- testcases.TC008WelcomeAbout -->
+      </class> <!-- testcases.TC009WelcomeSupport -->
     </classes>
-  </test> <!-- Default test(failed) -->
-</suite> <!-- Failed suite [Default suite] -->
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

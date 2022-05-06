@@ -13,8 +13,8 @@ public class TC002Logout extends BaseClass
 	@Test
 	public void verifyLogout() 
 	{
-	  //  Login hp = new Login(driver);
-		//hp.loginpage("Admin","admin123");
+	  // Login hp = new Login(driver);
+	  //  hp.loginpage("Admin","admin123");
 		Logout lg = new Logout(driver);
 		lg.logout();
 		String actual ="https://opensource-demo.orangehrmlive.com/index.php/auth/login";

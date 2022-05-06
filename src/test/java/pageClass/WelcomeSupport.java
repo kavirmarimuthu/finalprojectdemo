@@ -26,9 +26,9 @@ public class WelcomeSupport extends BasePage
 		}
 		
 		
-		public String getcurrenturl () 
+		public String getcurrenttitle() 
 		{
-			return driver.getCurrentUrl();
+			return driver.getTitle();
 		}
 		
 }

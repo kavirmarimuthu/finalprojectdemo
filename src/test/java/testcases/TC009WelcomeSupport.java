@@ -13,12 +13,12 @@ public class TC009WelcomeSupport extends BaseClass
 	@Test
 	public void verifysupport() 
 	{
-	  // Login hp = new Login(driver);
-	  //  hp.loginpage("Admin","admin123");
+	// Login hp = new Login(driver);
+	//  hp.loginpage("Admin","admin123");
 		WelcomeSupport ws = new WelcomeSupport(driver);
 		ws.support();
-		String actual ="https://opensource-demo.orangehrmlive.com/index.php/support/index";
-		String expected = ws.getcurrenturl();
+		String actual ="OrangeHRM";
+		String expected = ws.getcurrenttitle();
 	    Assert.assertEquals(actual,expected);
 	
 	}

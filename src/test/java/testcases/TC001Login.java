@@ -20,12 +20,13 @@ public class TC001Login extends BaseClass {
 		
 		Login hp = new Login(driver);
 		hp.loginpage("Admin","admin123");
-		app_logs.debug("Clicked on login button");
+		test.log(LogStatus.INFO,"Clicked on login button");
 		asrt = new SoftAssert();
 		String actual= "https://opensource-demo.orangehrmlive.com/index.php/dashboard";
 		String expected = hp.getcurrenturl();
 		asrt.assertEquals(actual,expected);
-		app_logs.debug("Login in Sccessfully");
+		test.log(LogStatus.INFO,"Successfully LoggedIn");
+		
 		
 	}
 
