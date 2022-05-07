@@ -3,13 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="testcases.TC002Logout">
+      <class name="testcases.TC009WelcomeSupport">
         <methods>
           <include name="tearDown"/>
-          <include name="verifyLogout"/>
+          <include name="verifysupport"/>
           <include name="init"/>
         </methods>
-      </class> <!-- testcases.TC002Logout -->
+      </class> <!-- testcases.TC009WelcomeSupport -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
