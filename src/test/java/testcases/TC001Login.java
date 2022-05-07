@@ -20,7 +20,7 @@ public class TC001Login extends BaseClass {
 		
 		Login hp = new Login(driver);
 		hp.loginpage("Admin","admin123");
-		test.log(LogStatus.INFO,"Clicked on login button");
+		test.log(LogStatus.INFO,"Entered Username and Password");
 		asrt = new SoftAssert();
 		String actual= "https://opensource-demo.orangehrmlive.com/index.php/dashboard";
 		String expected = hp.getcurrenturl();

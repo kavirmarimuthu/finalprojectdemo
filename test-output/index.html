@@ -24,7 +24,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+      <span class="top-banner-font-1">1 suite</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -38,7 +38,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" class="navigator-link" panel-name="suite-Suite">
-              <span class="suite-name border-failed">Suite</span>
+              <span class="suite-name border-passed">Suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -91,21 +91,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">7 methods, 1 failed,   6 passed</span>
-                  </li>
-                  <li>
-                    <span class="method-list-title failed">Failed methods</span>
-                    <span class="show-or-hide-methods failed">
-                      <a href="#" panel-name="suite-Suite" class="hide-methods failed suite-Suite"> (hide)</a> <!-- hide-methods failed suite-Suite -->
-                      <a href="#" panel-name="suite-Suite" class="show-methods failed suite-Suite"> (show)</a> <!-- show-methods failed suite-Suite -->
-                    </span>
-                    <div class="method-list-content failed suite-Suite">
-                      <span>
-                        <img width="3%" src="failed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="testcases.TC009WelcomeSupport" hash-for-method="verifysupport">verifysupport</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                    </div> <!-- method-list-content failed suite-Suite -->
+                    <span class="method-stats">7 methods,   7 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -141,6 +127,11 @@
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="testcases.TC009WelcomeSupport" hash-for-method="verifysupport">verifysupport</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-Suite" title="testcases.TC006Window" hash-for-method="windowhandler">windowhandler</a> <!-- method navigator-link -->
                       </span>
                       <br/>
@@ -156,41 +147,6 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Suite" class="panel Suite">
-          <div class="suite-Suite-class-failed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="failed.png"/>
-              <span class="class-name">testcases.TC009WelcomeSupport</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="verifysupport">
-                  </a> <!-- verifysupport -->
-                  <span class="method-name">verifysupport</span>
-                  <div class="stack-trace">org.openqa.selenium.ElementNotVisibleException: element not interactable
-  (Session info: chrome=100.0.4896.127)
-  (Driver info: chromedriver=100.0.4896.60 (6a5d10861ce8de5fce22564658033b43cb7de047-refs/branch-heads/4896@{#875}),platform=Windows NT 10.0.18363 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 30.10 seconds
-Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1cd5757287168e54b817830adce9b0158d&apos;, time: &apos;2016-06-30 19:26:09&apos;
-System info: host: &apos;LAPTOP-SR9OPSDN&apos;, ip: &apos;192.168.0.24&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_281&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:52349}, webauthn:extension:credBlob=true, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, webauthn:extension:largeBlob=true, unexpectedAlertBehaviour=ignore, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=100.0.4896.60 (6a5d10861ce8de5fce22564658033b43cb7de047-refs/branch-heads/4896@{#875}), userDataDir=C:\Users\busyq\AppData\Local\Temp\scoped_dir23548_765129417}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=100.0.4896.127, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true, webauthn:virtualAuthenticators=true}]
-Session ID: 84c21e6113d7c52dfbd520a24c47b0f0
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:327)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:85)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
-	at com.sun.proxy.$Proxy7.click(Unknown Source)
-	at pageClass.WelcomeSupport.support(WelcomeSupport.java:25)
-	at testcases.TC009WelcomeSupport.verifysupport(TC009WelcomeSupport.java:19)
-... Removed 33 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-failed -->
           <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -281,6 +237,21 @@ Session ID: 84c21e6113d7c52dfbd520a24c47b0f0
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
           </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testcases.TC009WelcomeSupport</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifysupport">
+                  </a> <!-- verifysupport -->
+                  <span class="method-name">verifysupport</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
         </div> <!-- panel Suite -->
         <div panel-name="test-xml-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
@@ -344,38 +315,38 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(7);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'verifysupport')
-data.setCell(0, 2, 'testcases.TC009WelcomeSupport')
-data.setCell(0, 3, 30416);
+data.setCell(0, 1, 'windowhandler')
+data.setCell(0, 2, 'testcases.TC006Window')
+data.setCell(0, 3, 17299);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'windowhandler')
-data.setCell(1, 2, 'testcases.TC006Window')
-data.setCell(1, 3, 26875);
+data.setCell(1, 1, 'addentitlements')
+data.setCell(1, 2, 'testcases.TC005AddEntitlements')
+data.setCell(1, 3, 5238);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'addentitlements')
-data.setCell(2, 2, 'testcases.TC005AddEntitlements')
-data.setCell(2, 3, 7168);
+data.setCell(2, 1, 'verifyLogin')
+data.setCell(2, 2, 'testcases.TC001Login')
+data.setCell(2, 3, 3695);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'verifyLogin')
-data.setCell(3, 2, 'testcases.TC001Login')
-data.setCell(3, 3, 5181);
+data.setCell(3, 1, 'searchemployee')
+data.setCell(3, 2, 'testcases.TC007EmployeeEntitlements')
+data.setCell(3, 3, 2972);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'searchemployee')
-data.setCell(4, 2, 'testcases.TC007EmployeeEntitlements')
-data.setCell(4, 3, 3644);
+data.setCell(4, 1, 'verifysupport')
+data.setCell(4, 2, 'testcases.TC009WelcomeSupport')
+data.setCell(4, 3, 1099);
 data.setCell(5, 0, 5)
 data.setCell(5, 1, 'verifyLogout')
 data.setCell(5, 2, 'testcases.TC002Logout')
-data.setCell(5, 3, 2322);
+data.setCell(5, 3, 1006);
 data.setCell(6, 0, 6)
 data.setCell(6, 1, 'verifyabout')
 data.setCell(6, 2, 'testcases.TC008WelcomeAbout')
-data.setCell(6, 3, 721);
+data.setCell(6, 3, 601);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <span class="suite-total-time">Total running time: 31 seconds</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -462,58 +433,56 @@ return data;
               </div> <!-- configuration-suite before -->
               <div class="test-method">
                 <span class="method-name">verifyLogin</span>
-                <span class="method-start">12092 ms</span>
+                <span class="method-start">11539 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">testcases.TC005AddEntitlements</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">addentitlements</span>
-                <span class="method-start">18786 ms</span>
+                <span class="method-start">16624 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">testcases.TC007EmployeeEntitlements</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">searchemployee</span>
-                <span class="method-start">26122 ms</span>
+                <span class="method-start">22056 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">testcases.TC006Window</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">windowhandler</span>
-                <span class="method-start">29886 ms</span>
+                <span class="method-start">25174 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">testcases.TC008WelcomeAbout</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">verifyabout</span>
-                <span class="method-start">56849 ms</span>
+                <span class="method-start">42594 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">testcases.TC009WelcomeSupport</div> <!-- chronological-class-name -->
               <div class="test-method">
-                <img src="failed.png">
-                </img>
                 <span class="method-name">verifysupport</span>
-                <span class="method-start">57658 ms</span>
+                <span class="method-start">43320 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">testcases.TC002Logout</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">verifyLogout</span>
-                <span class="method-start">88919 ms</span>
+                <span class="method-start">44489 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">testcases.TC001Login</div> <!-- chronological-class-name -->
               <div class="configuration-suite after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">91552 ms</span>
+                <span class="method-start">45661 ms</span>
               </div> <!-- configuration-suite after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

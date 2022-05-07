@@ -6,6 +6,20 @@
   </listeners>
   <test name="Test(failed)">
     <classes>
+      <class name="testcases.TC005AddEntitlements">
+        <methods>
+          <include name="addentitlements"/>
+          <include name="tearDown"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- testcases.TC005AddEntitlements -->
+      <class name="testcases.TC007EmployeeEntitlements">
+        <methods>
+          <include name="searchemployee"/>
+          <include name="tearDown"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- testcases.TC007EmployeeEntitlements -->
       <class name="testcases.TC009WelcomeSupport">
         <methods>
           <include name="tearDown"/>

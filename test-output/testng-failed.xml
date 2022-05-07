@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Page Object Model with Page Factory]">
   <listeners>
     <listener class-name="base.CustomListeners"/>
   </listeners>
-  <test name="Test(failed)">
+  <test name="Login Test(failed)">
     <classes>
-      <class name="testcases.TC009WelcomeSupport">
+      <class name="datadriven_testCases.TC001_LoginDDT">
         <methods>
           <include name="tearDown"/>
-          <include name="verifysupport"/>
           <include name="init"/>
+          <include name="verifyLogin" invocation-numbers="0"/>
         </methods>
-      </class> <!-- testcases.TC009WelcomeSupport -->
+      </class> <!-- datadriven_testCases.TC001_LoginDDT -->
     </classes>
-  </test> <!-- Test(failed) -->
-</suite> <!-- Failed suite [Suite] -->
+  </test> <!-- Login Test(failed) -->
+</suite> <!-- Failed suite [Page Object Model with Page Factory] -->
