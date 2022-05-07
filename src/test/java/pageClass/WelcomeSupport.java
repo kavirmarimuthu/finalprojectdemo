@@ -26,10 +26,10 @@ public class WelcomeSupport extends BasePage
 		}
 		
 		
-		public String getcurrenttitle() 
+	/*	public String getcurrenttitle() 
 		{
 			return driver.getTitle();
-		}
+		}*/
 		
 }
 
