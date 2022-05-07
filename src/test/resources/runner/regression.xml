@@ -11,7 +11,7 @@
 			<class name="testcases.TC007EmployeeEntitlements"/>
 			<class name="testcases.TC006Window"/>
 			<class name="testcases.TC008WelcomeAbout"/>
-			<class name="testcases.TC009WelcomeSupport"/>
+			<class name="testcases.TC009WelcomeSupport"/> 
 		 	<class name="testcases.TC002Logout"/>
 	</classes>
 	</test> <!-- Test -->

@@ -1,61 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="12" total="19" passed="7">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="24747" started-at="2022-05-07T13:49:24Z" finished-at="2022-05-07T13:49:49Z">
+  <suite name="Default suite" duration-ms="6816" started-at="2022-05-07T16:49:58Z" finished-at="2022-05-07T16:50:05Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="24747" started-at="2022-05-07T13:49:24Z" finished-at="2022-05-07T13:49:49Z">
-      <class name="testcases.TC002Logout">
-        <test-method status="PASS" signature="verifyLogout()[pri:0, instance:testcases.TC002Logout@2ed0fbae]" name="verifyLogout" duration-ms="1002" started-at="2022-05-07T09:49:48Z" finished-at="2022-05-07T09:49:49Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyLogout -->
-      </class> <!-- testcases.TC002Logout -->
+    <test name="Default test" duration-ms="6816" started-at="2022-05-07T16:49:58Z" finished-at="2022-05-07T16:50:05Z">
       <class name="testcases.TC009WelcomeSupport">
-        <test-method status="PASS" signature="verifysupport()[pri:0, instance:testcases.TC009WelcomeSupport@25a65b77]" name="verifysupport" duration-ms="1073" started-at="2022-05-07T09:49:47Z" finished-at="2022-05-07T09:49:48Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifysupport -->
-      </class> <!-- testcases.TC009WelcomeSupport -->
-      <class name="testcases.TC006Window">
-        <test-method status="PASS" signature="windowhandler()[pri:0, instance:testcases.TC006Window@12d3a4e9]" name="windowhandler" duration-ms="10071" started-at="2022-05-07T09:49:36Z" finished-at="2022-05-07T09:49:46Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- windowhandler -->
-      </class> <!-- testcases.TC006Window -->
-      <class name="testcases.TC007EmployeeEntitlements">
-        <test-method status="PASS" signature="searchemployee()[pri:0, instance:testcases.TC007EmployeeEntitlements@2c34f934]" name="searchemployee" duration-ms="2183" started-at="2022-05-07T09:49:34Z" finished-at="2022-05-07T09:49:36Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- searchemployee -->
-      </class> <!-- testcases.TC007EmployeeEntitlements -->
-      <class name="testcases.TC005AddEntitlements">
-        <test-method status="PASS" signature="addentitlements()[pri:0, instance:testcases.TC005AddEntitlements@55ca8de8]" name="addentitlements" duration-ms="4748" started-at="2022-05-07T09:49:29Z" finished-at="2022-05-07T09:49:33Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- addentitlements -->
-      </class> <!-- testcases.TC005AddEntitlements -->
-      <class name="testcases.TC001Login">
-        <test-method status="PASS" signature="init()[pri:0, instance:testcases.TC001Login@2893de87]" name="init" is-config="true" duration-ms="8940" started-at="2022-05-07T09:49:15Z" finished-at="2022-05-07T09:49:24Z">
+        <test-method status="PASS" signature="init()[pri:0, instance:testcases.TC009WelcomeSupport@75c072cb]" name="init" is-config="true" duration-ms="27947" started-at="2022-05-07T12:49:30Z" finished-at="2022-05-07T12:49:58Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- init -->
-        <test-method status="PASS" signature="verifyLogin()[pri:0, instance:testcases.TC001Login@2893de87]" name="verifyLogin" duration-ms="3197" started-at="2022-05-07T09:49:24Z" finished-at="2022-05-07T09:49:27Z">
+        <test-method status="PASS" signature="verifysupport()[pri:0, instance:testcases.TC009WelcomeSupport@75c072cb]" name="verifysupport" duration-ms="6757" started-at="2022-05-07T12:49:58Z" finished-at="2022-05-07T12:50:05Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyLogin -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:testcases.TC001Login@2893de87]" name="tearDown" is-config="true" duration-ms="78" started-at="2022-05-07T09:49:49Z" finished-at="2022-05-07T09:49:49Z">
+        </test-method> <!-- verifysupport -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testcases.TC009WelcomeSupport@75c072cb]" name="tearDown" is-config="true" duration-ms="535" started-at="2022-05-07T12:50:05Z" finished-at="2022-05-07T12:50:06Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- testcases.TC001Login -->
-      <class name="testcases.TC008WelcomeAbout">
-        <test-method status="PASS" signature="verifyabout()[pri:0, instance:testcases.TC008WelcomeAbout@240237d2]" name="verifyabout" duration-ms="517" started-at="2022-05-07T09:49:46Z" finished-at="2022-05-07T09:49:46Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyabout -->
-      </class> <!-- testcases.TC008WelcomeAbout -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+      </class> <!-- testcases.TC009WelcomeSupport -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
